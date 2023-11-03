@@ -1,5 +1,5 @@
 import { FaSearch } from 'react-icons/fa';
-import { Link, link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export default function Header() {
   return (
