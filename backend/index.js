@@ -23,8 +23,8 @@ app.listen (3000, ()=>{
     console.log('Server is running on port 3000');
  });
 
- app.use('/backend/user/', userRouter);
- app.use('/backend/auth/', authRouter);
+ app.use('/backend/user', userRouter);
+ app.use('/backend/auth', authRouter);
 
  app.use((err, req, res, next) =>{
     const statusCode = err.statusCode || 500;
